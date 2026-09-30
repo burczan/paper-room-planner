@@ -43,8 +43,8 @@ Create an input JSON file describing one room and its items. Dimensions are in m
 
 Item names must contain at least one non-whitespace character. They may contain Unicode characters supported by the bundled Noto Sans font; unsupported characters cause generation to fail.
 
-> [!TIP] Keep item names concise
-> Labels are drawn inside their cutouts, so long names can be awkward on small pieces.
+> [!TIP]
+> Keep item names concise. Labels are drawn inside their cutouts, so long names can be awkward on small pieces.
 
 Generate the PDF with:
 
@@ -58,7 +58,7 @@ The PDF contains a room page followed by one or more item-cutout pages, with a c
 
 Cutouts may be rotated on the item pages to use the available paper space more efficiently. This does not change their dimensions or scale; after cutting them out, they can be rotated freely on the room plan.
 
-> [!CAUTION] Print at actual size
+> [!CAUTION]
 > Print the PDF at _100%_, _Actual Size_, or the equivalent setting in your PDF viewer. Do **not** use _Fit to page_ or automatic scaling.
 
 After printing, measure the calibration line. It should be exactly 10 cm long. If it is not, the physical scale of the printed room and cutouts should not be trusted even if the PDF looks correct on screen.
