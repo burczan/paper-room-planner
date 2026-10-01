@@ -85,7 +85,7 @@ Doors, windows, radiators, columns, and other architectural details are not mode
 
 The program chooses a common scale that allows both the room and every item to fit on their respective pages. A very large or elongated item can therefore make the entire plan physically smaller on paper.
 
-Only rectangular footprints are supported. Circular, curved, polygonal, and other irregular shapes are not supported.
+Only rectangular footprints are supported. Circular, curved, polygonal, and other irregular shapes are not supported. The simplified geometry is intentional: the goal is to compare the space items occupy, not to reproduce their exact shapes.
 
 ## Known issues
 
