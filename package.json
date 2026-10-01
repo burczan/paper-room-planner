@@ -9,7 +9,7 @@
     "npm": ">=11 <12"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node scripts/copyAssets.ts",
     "generate:examples": "node scripts/generateExamples.ts",
     "generate": "npm run build && node dist/cli/main.js",
     "lint": "oxlint",
