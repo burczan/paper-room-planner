@@ -12,7 +12,7 @@ describe("drawCalibrationSection()", () => {
     const renderedText = text.mock.calls.map(([content]) => content);
 
     expect(renderedText).toEqual([
-      "Scale: 1:22",
+      "Scale: 1:22 (1 cm on paper = 22 cm in the room)",
       "Calibration line: 100 mm at Actual Size/100%",
     ]);
   });

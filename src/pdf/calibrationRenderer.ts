@@ -39,7 +39,7 @@ export function drawCalibrationSection(
   pdfDocument.setFontSize(fontSizePt);
 
   pdfDocument.text(
-    `Scale: 1:${scaleDenominator}`,
+    `Scale: 1:${scaleDenominator} (1 cm on paper = ${scaleDenominator} cm in the room)`,
     contentStartXCoordinateMm,
     scaleTextYCoordinateMm,
   );
